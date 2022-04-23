@@ -7,4 +7,3 @@ spanEl.style.fontSize = inputEl.value + 'px';
 inputEl.addEventListener('input', () => {
     spanEl.style.fontSize = `${inputEl.value}px`;
 })
-
